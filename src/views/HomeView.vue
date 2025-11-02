@@ -7,7 +7,7 @@
       <nav>
         <a href="/docs">Docs</a>
       </nav>
-      <a href="/download" class="download-btn">Download <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="/download" class="download-btn">Download</a>
     </header>
 
     <section class="hero">
@@ -332,7 +332,6 @@ h1 {
 </style>
 
 <style>
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
 
 body {
