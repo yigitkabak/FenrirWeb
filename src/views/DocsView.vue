@@ -7,11 +7,10 @@
       <nav>
         <a href="/documentation">Docs</a>
       </nav>
-      <a href="/download" class="download-btn">Download <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="/download" class="download-btn">Download</a>
     </header>
 
     <div class="docs-container">
-      <!-- Sidebar -->
       <aside class="docs-sidebar">
         <div class="search-container">
           <input 
@@ -37,7 +36,6 @@
         </nav>
       </aside>
 
-      <!-- Main Content -->
       <main class="docs-main">
         <div class="docs-content">
           <div class="docs-hero">
@@ -106,7 +104,6 @@ a {
   text-decoration: none;
 }
 
-/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -156,13 +153,13 @@ nav a:hover {
   background-color: #c4b5a0;
 }
 
-/* Docs Container */
+
 .docs-container {
   display: flex;
   min-height: calc(100vh - 80px);
 }
 
-/* Sidebar */
+
 .docs-sidebar {
   width: 280px;
   background-color: #1a1a1a;
@@ -231,7 +228,6 @@ nav a:hover {
   font-weight: 600;
 }
 
-/* Main Content */
 .docs-main {
   flex: 1;
   margin-left: 280px;
@@ -271,7 +267,6 @@ nav a:hover {
   font-weight: 400;
 }
 
-/* Docs Grid */
 .docs-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -306,7 +301,7 @@ nav a:hover {
   font-size: 1rem;
 }
 
-/* Scrollbar Styling */
+
 .docs-sidebar::-webkit-scrollbar {
   width: 8px;
 }
@@ -324,7 +319,6 @@ nav a:hover {
   background: #3a3a3a;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   header {
     padding: 1rem 1.5rem;
