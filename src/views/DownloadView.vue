@@ -7,7 +7,7 @@
       <nav>
         <a href="/docs">Docs</a>
       </nav>
-      <a href="/download" class="download-btn">Download <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="/download" class="download-btn">Download</a>
     </header>
 
     <main>
@@ -25,7 +25,7 @@
           :href="platform.url"
           class="platform-btn"
         >
-          <i :class="platform.icon"></i>
+          <img :src="platform.image" :alt="platform.text" class="platform-icon">
           {{ platform.text }}
         </a>
       </div>
@@ -41,17 +41,17 @@ export default {
       platforms: [
         {
           text: 'Download for macOS',
-          icon: 'fab fa-apple',
+          image: require('../assets/images/apple.png'),
           url: 'https://www.mediafire.com/file/bto581sbztj2g41/Fenrir-Runtime.dmg/file'
         },
         {
           text: 'Download for Windows',
-          icon: 'fab fa-windows',
+          image: require('../assets/images/win.png'),
           url: 'https://www.mediafire.com/file/kpwc5qqx1thwict/FenrirWindows.exe/file'
         },
         {
           text: 'Download for Linux',
-          icon: 'fab fa-linux',
+          image: require('../assets/images/linux.png'),
           url: 'https://www.mediafire.com/file/elsyvsm3unhrfnj/Fenrir.zip/file'
         }
       ]
@@ -233,8 +233,10 @@ h1 {
   box-shadow: 0 8px 20px rgba(212, 197, 176, 0.3);
 }
 
-.platform-btn i {
-  font-size: 1.5rem;
+.platform-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 footer {
@@ -297,8 +299,6 @@ footer p {
 </style>
 
 <style>
-/* Global styles - Font Awesome and Google Fonts */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
 
 body {
