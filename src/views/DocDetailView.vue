@@ -1,6 +1,7 @@
 <template>
   <div id="doc-detail-app">
     <header>
+      <title>Documents</title>
       <div class="logo">
         <router-link to="/"><span style="font-family: 'Google Sans Code', monospace;">&lt;Fenrir /&gt;</span></router-link>
       </div>
