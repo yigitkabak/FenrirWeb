@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <header>
+      <title>Download Fenrir</title>
       <div class="logo">
         <router-link to="/"><span style="font-family: 'Google Sans Code', monospace;">&lt;Fenrir /&gt;</span></router-link>
       </div>
