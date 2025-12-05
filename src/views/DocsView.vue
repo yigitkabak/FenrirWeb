@@ -7,6 +7,7 @@
       </div>
       <nav>
         <a href="/documentation">Docs</a>
+        <a href="https://github.com/yigitkabak/Fenrir">Github</a>
       </nav>
       <a href="/download" class="download-btn">Download</a>
     </header>
